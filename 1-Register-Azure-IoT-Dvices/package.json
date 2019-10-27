@@ -1,0 +1,14 @@
+{
+  "name": "1-register-azure-iot-dvices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-register-azure-iot-device.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-iothub": "^1.2.3"
+  }
+}

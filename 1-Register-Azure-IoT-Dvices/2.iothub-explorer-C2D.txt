@@ -1,0 +1,11 @@
+npm install -g iothub-explorer
+alias ihe=iothub-explorer
+ihe
+
+ihe login "iothub connection string”
+
+ihe get <device ID> --connection-string 
+ihe list
+
+# C2D message
+ihe send <device ID> “Hello World”
